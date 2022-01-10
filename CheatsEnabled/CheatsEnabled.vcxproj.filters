@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CheatsEnabled.cpp" />
+    <ClCompile Include="entities\abilities\abilities.cpp" />
+    <ClCompile Include="entities\bullet\bullet.cpp" />
+    <ClCompile Include="entities\coin\coin.cpp" />
+    <ClCompile Include="entities\enemy\enemy.cpp" />
+    <ClCompile Include="entities\goal\goal.cpp" />
+    <ClCompile Include="entities\hud\hud.cpp" />
+    <ClCompile Include="entities\player\player.cpp" />
+    <ClCompile Include="entities\spikes\spikes.cpp" />
+    <ClCompile Include="entities\turret\turret.cpp" />
+    <ClCompile Include="entities\wall\wall.cpp" />
+    <ClCompile Include="inkdot\src\entity\collider.cpp" />
+    <ClCompile Include="inkdot\src\entity\entity.cpp" />
+    <ClCompile Include="inkdot\src\entity\entityManager.cpp" />
+    <ClCompile Include="inkdot\src\entity\legacyEntity.cpp" />
+    <ClCompile Include="inkdot\src\game\game.cpp" />
+    <ClCompile Include="inkdot\src\game\scene.cpp" />
+    <ClCompile Include="inkdot\src\game\sceneManager.cpp" />
+    <ClCompile Include="inkdot\src\graphics\graphics.cpp" />
+    <ClCompile Include="inkdot\src\graphics\image.cpp" />
+    <ClCompile Include="inkdot\src\graphics\texturesHandler.cpp" />
+    <ClCompile Include="inkdot\src\graphics\text.cpp" />
+    <ClCompile Include="inkdot\src\graphics\textureManager.cpp" />
+    <ClCompile Include="inkdot\src\input\input.cpp" />
+    <ClCompile Include="inkdot\src\resources\scenes\startup\startup.cpp" />
+    <ClCompile Include="inkdot\src\utils\fileutils.cpp" />
+    <ClCompile Include="scenes\levelcreator\levelcreator.cpp" />
+    <ClCompile Include="scenes\Load\loadscene.cpp" />
+    <ClCompile Include="scenes\mainmenu\mainmenu.cpp" />
+    <ClCompile Include="scenes\test\testscene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CEGame.h" />
+    <ClInclude Include="entities\abilities\abilities.h" />
+    <ClInclude Include="entities\bullet\bullet.h" />
+    <ClInclude Include="entities\coin\coin.h" />
+    <ClInclude Include="entities\enemy\enemy.h" />
+    <ClInclude Include="entities\goal\goal.h" />
+    <ClInclude Include="entities\hud\hud.h" />
+    <ClInclude Include="entities\player\player.h" />
+    <ClInclude Include="entities\spikes\spikes.h" />
+    <ClInclude Include="entities\turret\turret.h" />
+    <ClInclude Include="entities\wall\wall.h" />
+    <ClInclude Include="inkdot\include.h" />
+    <ClInclude Include="inkdot\src\common.h" />
+    <ClInclude Include="inkdot\src\entity\collider.h" />
+    <ClInclude Include="inkdot\src\entity\entity.h" />
+    <ClInclude Include="inkdot\src\entity\entityComponent.h" />
+    <ClInclude Include="inkdot\src\entity\entityManager.h" />
+    <ClInclude Include="inkdot\src\entity\legacyEntity.h" />
+    <ClInclude Include="inkdot\src\error.h" />
+    <ClInclude Include="inkdot\src\game\game.h" />
+    <ClInclude Include="inkdot\src\game\scene.h" />
+    <ClInclude Include="inkdot\src\game\sceneManager.h" />
+    <ClInclude Include="inkdot\src\graphics\graphics.h" />
+    <ClInclude Include="inkdot\src\graphics\image.h" />
+    <ClInclude Include="inkdot\src\graphics\text.h" />
+    <ClInclude Include="inkdot\src\graphics\textureManager.h" />
+    <ClInclude Include="inkdot\src\graphics\texturesHandler.h" />
+    <ClInclude Include="inkdot\src\input\input.h" />
+    <ClInclude Include="inkdot\src\interfaces\IEntityManager.h" />
+    <ClInclude Include="inkdot\src\interfaces\IScene.h" />
+    <ClInclude Include="inkdot\src\interfaces\ISceneManager.h" />
+    <ClInclude Include="inkdot\src\resources\scenes\startup\startup.h" />
+    <ClInclude Include="inkdot\src\utils\fileutils.h" />
+    <ClInclude Include="inkdot\src\utils\strutils.h" />
+    <ClInclude Include="models\level.h" />
+    <ClInclude Include="scenes\levelcreator\levelcreator.h" />
+    <ClInclude Include="scenes\Load\loadscene.h" />
+    <ClInclude Include="scenes\mainmenu\mainmenu.h" />
+    <ClInclude Include="scenes\test\testscene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\bullet.png" />
+    <Image Include="assets\coin.png" />
+    <Image Include="assets\enemy.jpg" />
+    <Image Include="assets\enemy1.png" />
+    <Image Include="assets\goal.png" />
+    <Image Include="assets\gravityarrow.png" />
+    <Image Include="assets\HUD.png" />
+    <Image Include="assets\player.jpg" />
+    <Image Include="assets\player.png" />
+    <Image Include="assets\spikes.png" />
+    <Image Include="assets\turret.png" />
+    <Image Include="assets\yellowarrow.png" />
+  </ItemGroup>
+</Project>
